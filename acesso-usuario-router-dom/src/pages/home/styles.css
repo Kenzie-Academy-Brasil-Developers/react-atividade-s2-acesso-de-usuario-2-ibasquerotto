@@ -1,0 +1,27 @@
+.Container-members {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+a {
+  font-size: 22px;
+  line-height: 2rem;
+  color: #eee;
+  list-style: none;
+  text-decoration: none;
+}
+
+span {
+  padding: 10px 15px;
+  font-size: 18px;
+  background-color: #999;
+
+  border: none;
+  border-radius: 6px;
+}
+
+span:hover {
+  background-color: black;
+  color: chartreuse;
+}
