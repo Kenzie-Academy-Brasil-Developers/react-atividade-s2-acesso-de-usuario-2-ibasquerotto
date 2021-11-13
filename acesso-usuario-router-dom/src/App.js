@@ -1,6 +1,7 @@
 import "./App.css";
 import Home from "./pages/home";
 import { Switch, Route } from "react-router-dom";
+import { Members } from "./members";
 import Customer from "./pages/customer";
 import Company from "./pages/company";
 
@@ -10,7 +11,7 @@ function App() {
       <header className="App-header">
         <Switch>
           <Route exact path="/">
-            <Home />
+            <Home Members={Members} />
           </Route>
 
           <Route exact path="/customer/:id">
